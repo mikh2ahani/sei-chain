@@ -11,3 +11,6 @@ type Settlement struct {
 func (s Settlement) String() string {
 	return fmt.Sprintf("To %s of %d%s", s.To, s.Quantity, s.Denom)
 }
+func (s Settlement) String() string {
+	return fmt.Sprintf("To %s of %d%s", s.To, s.Quantity, s.Denom)
+}
